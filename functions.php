@@ -25,18 +25,18 @@ function the_breadcrumb() {
             echo get_option('home');
             echo '">';
             echo 'Home';
-            echo '</a></li><li class="separator"> / </li><li><a href="';
-            echo esc_url( home_url( '/' ) );
-            echo 'blog">Blog</a></li>';
+            echo '</a></li><li class="separator"> / </li><li>';
+            echo 'Blog</li>';
         } elseif (!is_front_page()) {
         echo '<li><a href="';
         echo get_option('home');
         echo '">';
         echo 'Home';
-        echo '</a></li><li class="separator"> / </li><li><a href="';
-        echo esc_url( home_url( '/' ) );
-        echo 'blog">Blog</a></li>';
+        echo '</a></li><li class="separator"> / </li>';
          if (is_category() || is_single()) {
+            echo '<li><a href="';
+            echo esc_url( home_url( '/' ) );
+            echo 'blog">Blog</a></li>';
             echo '<li class="separator"> / </li><li>';
          
             if (is_single()) {
