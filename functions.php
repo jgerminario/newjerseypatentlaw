@@ -20,14 +20,24 @@ add_action( 'widgets_init', 'my_widgets_init' );
 function the_breadcrumb() {
     global $post;
     echo '<ul id="breadcrumbs">';
-    if (!is_front_page()) {
+        if (is_page('blog')) {
+            echo '<li><a href="';
+            echo get_option('home');
+            echo '">';
+            echo 'Home';
+            echo '</a></li><li class="separator"> / </li><li><a href="';
+            echo esc_url( home_url( '/' ) );
+            echo 'blog">Blog</a></li>';
+        } elseif (!is_front_page()) {
         echo '<li><a href="';
         echo get_option('home');
         echo '">';
         echo 'Home';
-        echo '</a></li><li class="separator"> / </li>';
+        echo '</a></li><li class="separator"> / </li><li><a href="';
+        echo esc_url( home_url( '/' ) );
+        echo 'blog">Blog</a></li>';
          if (is_category() || is_single()) {
-            echo '<li>';
+            echo '<li class="separator"> / </li><li>';
          
             if (is_single()) {
 

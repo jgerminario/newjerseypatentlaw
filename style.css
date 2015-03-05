@@ -687,6 +687,7 @@ text-decoration: none;
 	line-height: 1;
 	font-size: 1.216875em;
 	display: inline;
+	float: left;
 }
 #carousel .carousel-caption p {
 	margin-top: 2px;
@@ -1001,7 +1002,7 @@ text-decoration: none;
 	/*text-align: right;*/
 }
 #breadcrumbs {
-	margin: 40px 0 0;
+	margin: 10px 0 0;
 }
 
 
