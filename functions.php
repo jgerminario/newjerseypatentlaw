@@ -56,6 +56,7 @@ function the_breadcrumb() {
                 echo $output;
                 echo '<li title="'.$title.'"> '.$title.'</li>';
             } else {
+                echo '<li class="separator"> / </li>';
                 echo '<li>'.get_the_title().' </li>';
             }
         }
