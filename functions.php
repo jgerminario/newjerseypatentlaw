@@ -32,8 +32,9 @@ function the_breadcrumb() {
         echo get_option('home');
         echo '">';
         echo 'Home';
-        echo '</a></li><li class="separator"> / </li>';
+        echo '</a></li>'
          if (is_category() || is_single()) {
+            echo '<li class="separator"> / </li>';
             echo '<li><a href="';
             echo esc_url( home_url( '/' ) );
             echo 'blog">Blog</a></li>';
@@ -48,9 +49,10 @@ function the_breadcrumb() {
             if($post->post_parent){
                 $anc = get_post_ancestors( $post->ID );
                 $title = get_the_title();
-                foreach ( $anc as $ancestor ) {
+                foreach ( $anc as $ancestor ) {                    
                     $output = '<li><a href="'.get_permalink($ancestor).'" title="'.get_the_title($ancestor).'">'.get_the_title($ancestor).'</a></li> <li class="separator">/</li>';
                 }
+                echo '<li class="separator"> / </li>';
                 echo $output;
                 echo '<li title="'.$title.'"> '.$title.'</li>';
             } else {
