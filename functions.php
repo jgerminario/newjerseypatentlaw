@@ -32,7 +32,7 @@ function the_breadcrumb() {
         echo get_option('home');
         echo '">';
         echo 'Home';
-        echo '</a></li>'
+        echo '</a></li>';
          if (is_category() || is_single()) {
             echo '<li class="separator"> / </li>';
             echo '<li><a href="';
