@@ -33,6 +33,12 @@ Body - 14 pt Merriweather = 0.875 em
 Links - Red
 */
 
+/* TODO: 
+    Refactor into semantic HTML5
+    Refactor into CSS best practices (incl. removal of ids, more modular styles, etc.)
+*/
+
+
 
 
 			/* ALL ELEMENTS */
@@ -132,6 +138,7 @@ img {
 	/* margin-right: 32.1282%; */
 	display: inline-block;
 	max-width: 315px;
+	float: left;
 }
 #top #logo img {
 
@@ -553,6 +560,12 @@ label.textarea {
 }
 */
 
+#top #logo {
+	width: 54.6875%;
+	min-width: 230px;
+	float: none;
+}
+
 
 #navbar li {
 	padding-bottom: 12 px;
@@ -744,6 +757,7 @@ text-decoration: none;
     background-color: #FFF;
     right: 15px;
     left: 15px;
+    width: auto;
 }  
 #navbar ul {  
     display: block;  
