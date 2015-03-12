@@ -23,7 +23,7 @@ get_header(); ?>
 		</div>
 	<?php else: ?>
 		<div id="top_sidebar_img">
-			<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/CIP/imgs/patent<?php echo rand(1,5) ?>.png" alt="<?php wp_title(); ?>" />
+			<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/CIP/imgs/patent<?php echo rand(1,6) ?>.png" alt="<?php wp_title(); ?>" />
 		</div>
 	<?php endif; ?>
 	<div id="bottom_sidebar">
