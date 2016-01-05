@@ -454,7 +454,11 @@ padding-left: 10px;
 }
 #bottom_sidebar p {
 	text-align: center;
-
+}
+#bbb {
+  margin: 0 auto;
+  display: block;
+  margin-top: 40px;
 }
 
 		/* FOOTER CONTENT */
@@ -1057,6 +1061,10 @@ text-decoration: none;
 	}
 	#footer li {
 		text-align: center;
+		padding-left: 0;
+	}
+	#footer li ul {
+		padding-left: 0;
 	}
 	#footer .footer {
 		text-align: center;
