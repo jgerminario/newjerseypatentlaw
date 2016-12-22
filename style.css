@@ -81,7 +81,12 @@ Links - Red
 }
 
 /* bootstrap.css */
-
+.glyphicon-chevron-left:before {
+  content: "\e079";
+}
+.glyphicon-chevron-right:before {
+  content: "\e080";
+}
 .carousel {
   position: relative;
 }
@@ -1305,3 +1310,4 @@ text-decoration: none;
 	}
 
 }
+/*# sourceMappingURL=bootstrap.css.map */
