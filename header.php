@@ -5,7 +5,7 @@
 	<title><?php wp_title(); ?></title>
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<link rel="canonical" href="<?php echo get_permalink(); ?>">
-	<link rel="stylesheet" href="/wp-content/themes/CIP/css/style.css">
+	<link rel="stylesheet" href="/wp-content/themes/CIP/css/style.min.css">
 	<link rel="shortcut icon" type="image/x-icon" href="/wp-content/themes/CIP/imgs/favicon.ico">
 </head>
 <body>
