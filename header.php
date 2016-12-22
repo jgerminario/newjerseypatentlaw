@@ -4,7 +4,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
 	<title><?php wp_title(); ?></title>
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<!-- <link rel="stylesheet" href="/wp-content/themes/CIP/css/bootstrap.css"> -->
+	<link rel="stylesheet" href="/wp-content/themes/CIP/css/bootstrap.css">
 	<link rel="canonical" href="<?php echo get_permalink(); ?>">
 	<link rel="stylesheet" href="/wp-content/themes/CIP/style.css">
 	<link rel="shortcut icon" type="image/x-icon" href="/wp-content/themes/CIP/imgs/favicon.ico">
