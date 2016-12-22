@@ -2,7 +2,7 @@
 <?php wp_list_pages( 'title_li='); ?> 
 <p class="footer">©<?php echo date("Y"); ?> The Law Office of Thomas J Germinario</p>
 </div>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script async src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script async>
 $('#pull').on('click', function() {
   ga('send', 'event', 'nav', 'open');
@@ -56,14 +56,14 @@ $('#callContactMobile').on('click', function() {
 <!--------------------------------------------------
 Remarketing tags may not be associated with personally identifiable information or placed on pages related to sensitive categories. See more information and instructions on how to setup the tag on: http://google.com/ads/remarketingsetup
 -------------------------------------------------- -->
-<script type="text/javascript">
+<script async type="text/javascript">
 /* <![CDATA[ */
 var google_conversion_id = 1010345947;
 var google_custom_params = window.google_tag_params;
 var google_remarketing_only = true;
 /* ]]> */
 </script>
-<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+<script async type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
 </script>
 <noscript>
 <div style="display:inline;">
