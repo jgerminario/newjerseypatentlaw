@@ -1198,10 +1198,11 @@ background-repeat: no-repeat;
 	margin-top: 20px;
 }
 #carousel {
-	max-width: 500px;
-	margin: 0 auto 35px;
-	position: relative;
-	left: 3px;
+  display: none !important;
+  max-width: 500px;
+  margin: 0 auto 35px;
+  position: relative;
+  left: 2px;
 }
 #bottom_mobile {
 	padding-bottom:50px;
@@ -1218,7 +1219,6 @@ background-repeat: no-repeat;
 }
 #bottom_mobile p {
 	text-align: center;
-
 }
 #carousel .carousel-caption {
 	position: static;
@@ -1304,7 +1304,6 @@ text-decoration: none;
 #carousel .carousel-caption a {
 	font-size: 1em;
 	color: #143a83;
-	/*text-align: right;*/
 }
 #breadcrumbs {
 	margin: 10px 0 0;

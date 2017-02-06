@@ -8,12 +8,6 @@ Template Name: Home
 	<div id="carousel">
 <!-- Twitter Bootstrap carousel begins -->
 		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-		  <!-- Indicators -->
-		 <ol class="carousel-indicators">
-		    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-		    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-		    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-		  </ol>
 
 		  <!-- Wrapper for slides -->
 		 <div class="carousel-inner">
@@ -23,36 +17,10 @@ Template Name: Home
 		        <h2>Securing innovation for small business</h2><p><a href="<?php echo esc_url( home_url( '/' ) ); ?>clients">Meet our clients »</a></p>
 		      </div>
 		    </div>
-		    <div class="item">
-		      <img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/CIP/imgs/patent.png" alt="Patent services">
-		      <div class="carousel-caption">
-		        <h2>Legal acumen, technical sophistication</h2><p><a href="<?php echo esc_url( home_url( '/' ) ); ?>patents" id="patentsCarousel">See our services »</a></p>
-		      </div>
-		    </div>
+		   
 		 
 		  </div>
-		  <!-- Controls -->
-		  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-		    <span class="glyphicon glyphicon-chevron-left"></span>
-		  </a>
-		  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-		    <span class="glyphicon glyphicon-chevron-right"></span>
-		  </a>
 		</div>
-		<!--<div class="carousel">
-		<div class="carousel-inner">
-			<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/CIP/imgs/patent.png" alt="Patent services">
-			<div class="carousel-caption">
-		        <h2>Legal acumen, technical expertise</h2><p><a href="<?php echo esc_url( home_url( '/' ) ); ?>patents" id="patentsCarousel">See our patent services »</a></p>
-		      </div>
-		</div>
-		
-		</div>-->
-		
-		<!--<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/CIP/imgs/man.jpg" alt="Small business owner">-->
-		<!-- <div id="banner">
-			<h2>Securing innovation for small business </h2><p><a>Meet our clients »</a></p>
-		</div> -->
 	
 	
 </div>
