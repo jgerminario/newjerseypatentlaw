@@ -1,7 +1,7 @@
-<div id="footer">
-<?php wp_list_pages( 'title_li='); ?> 
-<p class="footer">©<?php echo date("Y"); ?> The Law Office of Thomas J Germinario</p>
-</div>
+<?php if (!is_page_template($template = "landing-page.php")) { 
+  include "partials/cip-footer.php";
+}
+?>
 </div>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

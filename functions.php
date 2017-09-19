@@ -16,7 +16,8 @@ function my_widgets_init() {
 	) );
 }
 add_action( 'widgets_init', 'my_widgets_init' );
-
+add_filter('tiny_mce_before_init', create_function( '$a',
+'$a["extended_valid_elements"] = "iframe[id|class|title|style|align|frameborder|height|longdesc|marginheight|marginwidth|name|scrolling|src|width]"; return $a;') );
 function the_breadcrumb() {
     global $post;
     echo '<ul id="breadcrumbs">';

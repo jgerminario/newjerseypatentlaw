@@ -1,0 +1,135 @@
+.landing-page {
+  white-space: normal;
+}
+
+.lp-header {
+  position: absolute;
+  background: white;
+  width: 100%;
+  z-index: 2;
+}
+
+.lp-header #top {
+
+}
+
+.lp-header #logo {
+  margin-bottom: 28px;
+}
+
+.landing-page #navbar {
+  text-align: center;
+  height: 88px;
+}
+
+.landing-page #navbar li {
+  font-size: 1.1em;
+  padding: 27px 28px 24px;
+}
+
+.landing-page #hero {
+  width: 100%;
+  height: 685px;
+  position: relative;
+  overflow: hidden;
+}
+
+.landing-page #hero #hero-image {
+  max-width: none;
+  height: 685px;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  min-width: 100%;
+}
+#landing-page-callout {
+  position: absolute;
+  z-index: 6;
+  bottom: 41px;
+  right: 0;
+}
+
+#landing-page-content {
+  width: 585px;
+  /*height: 460px;*/
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 140px;
+  left: 0;
+}
+#landing-page-content .entry-header {
+  display: inline-block;
+}
+#landing-page-content .entry-header h1 {
+  font-size: 2em;
+  transform: rotate(270deg);
+  transform-origin: left top 0;
+  transform-origin: 30% 100%;
+  color: white;
+  display: inline-block;
+}
+#landing-page-content .entry-content {
+  margin-left: 30px;
+}
+#landing-page-content p {
+  font-size: 1.1em;
+  color: white;
+}
+#landing-page-benefits-bar {
+  position: absolute;
+  background-color: #792B38;
+  width: 100%;
+  z-index: 5;
+  height: 50px;
+  bottom: 0;
+}
+#landing-page-benefits-bar ul {
+  text-align: center;
+}
+#landing-page-benefits-bar li {
+  display: inline-block;
+  padding: 14px 15px;
+  color: #ffffff;
+  font-size: 1.0em;
+}
+#contact-form-252 {
+
+}
+#landing-page-main {
+  width: 440px;
+  margin-top: 20px;
+  border-right: 1px solid black;
+}
+#landing-page-main h1 {
+  color: #792B38;
+  font-size: 2em;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  text-align: center;
+}
+#landing-page-main p {
+  font-size: 1.1em;
+}
+#landing-page-main .aside {
+  font-style: italic;
+  font-size: 1.2em;
+}
+
+@media screen and (max-width: 760px) {
+  .landing-page #navbar {
+    display: none;
+  }
+  #landing-page-benefits-bar {
+    background-color: #792B38;
+  }
+  #landing-page-benefits-bar ul {
+    display: none;
+  }
+}
+@media screen and (max-width: 550px) {
+  #top {
+    margin-bottom: 0;
+  }
+}

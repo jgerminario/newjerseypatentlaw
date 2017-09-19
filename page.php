@@ -41,8 +41,7 @@ get_header(); ?>
 			<h2>The Law Office of Thomas J Germinario</h2>
 			<p>154 Route 206 S<br/>
 				Chester, NJ 07930<br/>
-				<a href="<?php echo esc_url( home_url( '/' ) ); ?>contact" id=
-"contactMobile">Directions and contact</a>
+				<a href="<?php echo esc_url( home_url( '/' ) ); ?>contact" id="contactMobile">Directions and contact</a>
 				<br />
 				<br />
 				Call for a consultation:<br />

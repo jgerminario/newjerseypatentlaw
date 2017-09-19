@@ -9,12 +9,10 @@
 ?>
 
 	<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-		<header class="entry-header">
-			<?php if ( ! is_page_template( 'page-templates/front-page.php' ) ) : ?>
-			<?php endif; ?>
-			<h1 class="entry-title"><?php the_title(); ?></h1>
-		</header>
-
-		<div class="entry-content">
-			<?php the_content(); ?>
-			</div>
+    <?php if (is_page_template("landing-page.php")) { 
+      include "partials/cip-entry-content.php"; 
+      include "partials/cip-entry-header.php"; 
+    } else {
+      include "partials/cip-entry-header.php";
+      include "partials/cip-entry-content.php"; 
+    } ?>
