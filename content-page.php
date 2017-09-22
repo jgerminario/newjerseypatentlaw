@@ -9,7 +9,8 @@
 ?>
 
 	<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-    <?php if (is_page_template("landing-page.php")) { 
+    <?php if (is_page_template("landing-page.php")) {
+      include "partials/cip-responsive-entry-header.php"; 
       include "partials/cip-entry-content.php"; 
       include "partials/cip-entry-header.php"; 
     } else {

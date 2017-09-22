@@ -91,6 +91,9 @@
   font-size: 1.05em;
   color: white;
 }
+#landing-page-content .responsive-entry-header {
+  display: none;
+}
 #landing-page-benefits-bar {
   position: absolute;
   background-color: #792B38;
@@ -187,23 +190,99 @@
   font-size: 1.1em;
   width: auto;
 }
-
+@media screen and (max-width: 1040px) {
+  #landing-page-main {
+    border-right: none;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+  }
+  #landing-page-main p {
+    width: auto;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .landing-page #contact {
+    margin: 0 auto;
+    display: block;
+  }
+}
 @media screen and (max-width: 760px) {
+  .lp-header #top #logo {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .lp-header #top #logo img {
+    margin-left: 0;
+  }
   #landing-page-content {
-    position: static
+    position: static;
+    width: auto;
+    background-color: #792B38;
+  }
+  #landing-page-content .entry-content p {
+    margin-top: 0;
+  }
+  #landing-page-callout {
+    width: 250px;
   }
   .landing-page #navbar {
     display: none;
   }
   #landing-page-benefits-bar {
-    background-color: #792B38;
+    background-color: #2b0e13;
   }
   #landing-page-benefits-bar ul {
     display: none;
   }
 }
 @media screen and (max-width: 550px) {
+  #landing-page-main {
+    width: 80%;
+  }
+  .landing-page #contact {
+    width: 80%;
+  }
+  .landing-page input, .landing-page textarea {
+    width: 200px;
+  }
+
+  #landing-page-content .entry-content p {
+    margin: 0 auto;
+    padding: 10px 0 20px;
+    width: 80%;
+  }
+  #landing-page-content .responsive-entry-header {
+    display: block;
+  }
+  #landing-page-content .responsive-entry-header h1 {
+    color: white;
+    position: absolute;
+    margin-top: -40px;
+    z-index: 10;
+    font-size: 1.4em;
+    margin-left: 30px;
+  }
+  #landing-page-content .entry-header {
+    display: none;
+  }
   #top {
     margin-bottom: 0;
+  }
+  .landing-page #hero {
+    height: 525px;
+  }
+  .landing-page #hero #hero-image {
+    left: 54%;
+    top: 70px;
+    height: 405px;
+    transform: translateX(-59%);
+  }
+}
+@media screen and (max-width: 420px) {
+  .landing-page #hero #hero-image {
+    left: 43%;
   }
 }
