@@ -853,7 +853,10 @@ label.textarea {
 /**************************** TABLET ****************************/
 
 @media screen and (max-width: 810px) {
-
+  #main {
+    margin-right: 0;
+    padding-right: 0;
+  }
 /*
 #top #logo {
   display: inline-block;
@@ -967,6 +970,7 @@ text-decoration: none;
      -webkit-column-count: 2;
         -moz-column-count: 2;
              column-count: 2;
+    padding: 10px 0;
   }
 }
 

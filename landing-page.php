@@ -1,4 +1,4 @@
-<?php
+<a href="tel:+19088790091" id="phoneHeaderMobile"><?php
 /* Template Name: Landing Page */
 ?>
 <?php get_header(); ?>
@@ -14,7 +14,7 @@
 			</ul>
 		</div>
 		<div id="landing-page-callout">
-			<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/CIP/imgs/landing-page_callout.png">
+			<a href="tel:+19088790091" class="phone-call"><img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/CIP/imgs/landing-page_callout.png"></a>
 		</div>
 	</div>
 	<div id="landing-page-content">
@@ -32,5 +32,10 @@
 	<div id="contact">
 		<?php include 'partials/cip-contact-form.php'; ?>
 	</div>
-	<?php include 'partials/cip-nav.php'; ?>
+	<div class="desktop-only">
+		<?php include 'partials/cip-nav.php'; ?>
+	</div>
+	<div class="mobile-only">
+		<?php include 'partials/cip-footer.php'; ?>
+	</div>
 </div>
