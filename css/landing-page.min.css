@@ -62,7 +62,9 @@
 }
 
 #landing-page-content {
-  width: 585px;
+  padding-top: 40px;
+  padding-bottom: 25px;
+  width: 700px;
   /*height: 460px;*/
   background-color: rgba(0, 0, 0, 0.6);
   position: absolute;
@@ -75,6 +77,7 @@
 }
 #landing-page-content .entry-header {
   display: inline-block;
+  height: 0;
 }
 #landing-page-content .entry-header h1 {
   font-size: 1.8em;
@@ -93,9 +96,8 @@
 }
 #landing-page-content .entry-content p {
   margin-left: 107px;
-  margin-right: 57px;
-  margin-top: 57px;
-  margin-bottom: 0;
+  margin-right: 45px;
+  margin-bottom: 20px;
   line-height: 1.7;
 }
 #landing-page-content p {
@@ -252,6 +254,7 @@
     position: static;
     width: auto;
     background-color: #792B38;
+    padding-top: 0;
   }
   #landing-page-content .entry-content p {
     margin-top: 0;
