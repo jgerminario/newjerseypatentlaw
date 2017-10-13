@@ -1,4 +1,4 @@
-<a href="tel:+19088790091" id="phoneHeaderMobile"><?php
+<?php
 /* Template Name: Landing Page */
 ?>
 <?php get_header(); ?>
