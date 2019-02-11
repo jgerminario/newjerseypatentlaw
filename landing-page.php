@@ -39,3 +39,4 @@
 		<?php include 'partials/cip-footer.php'; ?>
 	</div>
 </div>
+<?php include 'footer.php'; ?>
