@@ -14,7 +14,7 @@
 			</ul>
 		</div>
 		<div id="landing-page-callout">
-			<a href="tel:+19088790091" class="phone-call"><img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/CIP/imgs/landing-page_callout.png"></a>
+			<a href="tel:+19088790091" class="phone-call"><img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/CIP/imgs/landing-page_callout_9088790091.png"></a>
 		</div>
 	</div>
 	<div id="landing-page-content">
