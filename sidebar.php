@@ -9,15 +9,13 @@
 			</ul>
 
 	<p>As a leading New Jersey patent attorney, Thomas J Germinario can help identify all your unique IP needs to secure your rights as a business or independent inventor.</p>
-	
-	<p><a href="<?php echo esc_url( home_url( '/' ) ); ?>contact" id="contactSidebar">Schedule a consultation »</a></p>
 	</p>
 	</div>
 
 	<div id="bottom_sidebar">
 		<h2>The Law Office of <br />Thomas J Germinario</h2>
 		<p>154 Route 206 S<br/>
-		Chester, NJ 07930<br/>
+		Chester, NJ 07930
 		<br />
 		<br />
 		Call for a consultation:<br />
