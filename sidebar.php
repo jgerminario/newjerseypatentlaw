@@ -18,7 +18,6 @@
 		<h2>The Law Office of <br />Thomas J Germinario</h2>
 		<p>154 Route 206 S<br/>
 		Chester, NJ 07930<br/>
-		<a href="<?php echo esc_url( home_url( '/' ) ); ?>contact" id="contactSidebar">Directions and contact</a>
 		<br />
 		<br />
 		Call for a consultation:<br />
