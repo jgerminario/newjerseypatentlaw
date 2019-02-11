@@ -52,8 +52,6 @@ Template Name: Home
 			<h2>The Law Office of Thomas J Germinario</h2>
 			<p>154 Route 206 S<br/>
 				Chester, NJ 07930<br/>
-				<a href="<?php echo esc_url( home_url( '/' ) ); ?>contact" id="contactMobile">Directions and contact</a>
-				<br />
 				<br />
 				Call for a consultation:<br />
 				<a href="tel:+19088790091" id="callContactMobile"><span class="bold">(908) 879-0091</span></a></p>
