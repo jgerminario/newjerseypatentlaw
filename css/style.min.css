@@ -491,6 +491,7 @@ color: #4b4b54;
   width:100%; 
   max-width: 1060px;
   margin: 0 auto;
+  overflow-x: hidden;
   white-space: nowrap;
   min-height: 100%;
   background-color: #FFF;
