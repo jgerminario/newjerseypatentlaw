@@ -21,6 +21,6 @@
 		Call for a free consultation:<br />
 		<a href="tel:+19088790091" id="callContactSidebar"><span class="bold">(908) 879-0091</span></a></p>
 		<a title="Click for the Business Review of Thomas J. Germinario Attorney at Law, an Attorneys & Lawyers - Patent in Chester NJ" href="https://www.bbb.org/new-jersey/business-reviews/attorneys-and-lawyers-patent/thomas-j-germinario-attorney-at-law-in-chester-nj-90173064#sealclick"><img alt="Click for the BBB Business Review of this Attorneys & Lawyers - Patent in Chester NJ" id="bbb" style="border: 0;" src="https://seal-newjersey.bbb.org/seals/black-seal-150-110-thomasjgerminarioattorneyatlaw-90173064.png" /></a>
-		<?php echo do_shortcode( '[brb_collection id="2567"]' ); ?>
+		<?php // echo do_shortcode( '[brb_collection id="2567"]' ); ?>
 		</div>
 </div>
