@@ -1191,6 +1191,9 @@ background-repeat: no-repeat;
   display:block;
   border-radius:10px;
 }
+.hide_mobile {
+  display: block;
+}
 #main {
   margin-top: 20px;
 }
