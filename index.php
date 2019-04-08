@@ -49,7 +49,11 @@
 		<br />
 		Call for a free consultation:<br />
 		<a href="tel:+19088790091" id="callContactSidebar"><span class="bold">908.879.0091</span></a></p>
-    <div id="brb_collection_2567"></div><script type="text/javascript">!function(e){var c=document.createElement("script");c.src=e,document.body.appendChild(c)}("http://www.newjerseypatentlaw.com?cf_action=brb_embed&brb_collection_id=2567&brb_callback=brb_"+(new Date).getTime());</script>
+        <?php if ( is_active_sidebar( 'google_widget' ) ) : ?>
+          <div id="google-widget">
+            <?php dynamic_sidebar( 'google_widget' ); ?>
+          </div>
+        <?php endif; ?>
 		</div>
 	</div>
 	<div id="bottom_mobile">
@@ -59,7 +63,11 @@
 				<br />
 				Call for a free consultation:<br />
 				<a href="tel:+19088790091" id="callContactMobile"><span class="bold">908.879.0091</span></a></p>
-        <div id="brb_collection_2567"></div><script type="text/javascript">!function(e){var c=document.createElement("script");c.src=e,document.body.appendChild(c)}("http://www.newjerseypatentlaw.com?cf_action=brb_embed&brb_collection_id=2567&brb_callback=brb_"+(new Date).getTime());</script>
+        <?php if ( is_active_sidebar( 'google_widget' ) ) : ?>
+          <div id="google-widget">
+            <?php dynamic_sidebar( 'google_widget' ); ?>
+          </div>
+        <?php endif; ?>
 			</div>
 	<div id="delimiter">
 	</div>
