@@ -21,11 +21,6 @@ get_header(); ?>
 			<br />
 			Call for a free consultation:<br />
 			<a href="tel:+19088790091" id="callContactSidebar"><span class="bold">(908) 879-0091</span></a></p>
-				<?php if ( is_active_sidebar( 'google_widget' ) ) : ?>
-					<div id="google-widget">
-						<?php dynamic_sidebar( 'google_widget' ); ?>
-					</div>
-				<?php endif; ?>
 		</div>
 	</div>
 	<div id="bottom_mobile">
@@ -35,11 +30,6 @@ get_header(); ?>
 				<br />
 				Call for a free consultation:<br />
 				<a href="tel:+19088790091" id="callContactMobile"><span class="bold">(908) 879-0091</span></a></p>
-				<?php if ( is_active_sidebar( 'google_widget' ) ) : ?>
-					<div id="google-widget">
-						<?php dynamic_sidebar( 'google_widget' ); ?>
-					</div>
-				<?php endif; ?>
 			</div>
 </div>
 	
