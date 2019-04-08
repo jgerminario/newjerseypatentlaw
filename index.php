@@ -49,6 +49,7 @@
 		<br />
 		Call for a free consultation:<br />
 		<a href="tel:+19088790091" id="callContactSidebar"><span class="bold">908.879.0091</span></a></p>
+    <img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/CIP/imgs/seals.png" style="width:100%; margin: 0 auto; display: block;">
 		</div>
 	</div>
 	<div id="bottom_mobile">
@@ -58,6 +59,7 @@
 				<br />
 				Call for a free consultation:<br />
 				<a href="tel:+19088790091" id="callContactMobile"><span class="bold">908.879.0091</span></a></p>
+        <img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/CIP/imgs/seals.png" style="width:100%; margin: 0 auto; display: block;">
 			</div>
 	<div id="delimiter">
 	</div>
