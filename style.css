@@ -444,8 +444,8 @@ iframe {
 	text-align: center;
 vertical-align: middle;
 }
-#call_mobile {
-	display: none;
+.hide_mobile {
+  display: none;
 }
 .mobile_delimiter {
 	clear:none;
@@ -1161,13 +1161,11 @@ background-repeat: no-repeat;
 	margin: 0 auto;
 }
 #call_mobile .phone {
-	width: 20px;
-	height: 18px;
-	position: relative;
-	top: 2;
-	margin-right: 10px;
-	margin-top: 7px;
-
+  width: 20px;
+  height: 18px;
+  position: relative;
+  top: 12px;
+  margin-right: 10px;
 }
 /*#call_mobile .call {
 	font-size: 1em;

@@ -547,10 +547,8 @@ label.textarea {
 	width: 20px;
 	height: 18px;
 	position: relative;
-	top: 2;
+	top: 12px;
 	margin-right: 10px;
-	margin-top: 7px;
-
 }
 #call_mobile .number {
 	color: #FFF;

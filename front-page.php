@@ -28,8 +28,17 @@ Template Name: Home
 		<?php while ( have_posts() ) : the_post(); ?>
 				<?php get_template_part( 'content', 'page' ); ?>
 			<?php endwhile; // end of the loop. ?>
-		
 	</div>
+	<?php if ( is_active_sidebar( 'google_widget' ) ) : ?>
+		<div id="google-widget">
+			<?php dynamic_sidebar( 'google_widget' ); ?>
+		</div>
+	<?php endif; ?>
+		<a href="tel:+19088790091" id="phoneHeaderMobile">
+			<div id="call_mobile" style="top:10px;text-decoration: none;">
+	      <p class="number"><img class="phone" src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/CIP/imgs/phone.png">Call for a <strong>free</strong> consultation: <br />(908) 879-0091</p>
+	    </div>
+	  </a>
 
 <div id="sidebar_mobile">
 		<div id="top_sidebar">
@@ -51,7 +60,7 @@ Template Name: Home
 			<p>154 Route 206 S<br/>
 				Chester, NJ 07930<br/>
 				<br />
-				Call for a consultation:<br />
+				Call for a free consultation:<br />
 				<a href="tel:+19088790091" id="callContactMobile"><span class="bold">(908) 879-0091</span></a></p>
 				<a title="Click for the Business Review of Thomas J. Germinario Attorney at Law, an Attorneys & Lawyers - Patent in Chester NJ" href="https://www.bbb.org/new-jersey/business-reviews/attorneys-and-lawyers-patent/thomas-j-germinario-attorney-at-law-in-chester-nj-90173064#sealclick"><img alt="Click for the BBB Business Review of this Attorneys & Lawyers - Patent in Chester NJ" id="bbb" style="border: 0;" src="https://seal-newjersey.bbb.org/seals/black-seal-150-110-thomasjgerminarioattorneyatlaw-90173064.png" /></a>
 			</div>

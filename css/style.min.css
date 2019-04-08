@@ -374,7 +374,10 @@ blockquote {
 margin-top: 40px;
 }
 a:visited, a:link {
-  color: #792b38;
+  color: #143a83;
+}
+#phoneHeaderMobile:visited, #phoneHeaderMobile:link {
+  text-decoration: none;
 }
 a:hover {
   text-decoration: none;
@@ -388,7 +391,6 @@ iframe {
 }
 
       /* HEADER CONTENT */
-
 #top  {
   padding-top: 20px;
   white-space: nowrap;
@@ -445,7 +447,7 @@ iframe {
   text-align: center;
 vertical-align: middle;
 }
-#call_mobile {
+.hide_mobile {
   display: none;
 }
 .mobile_delimiter {
@@ -490,7 +492,6 @@ color: #4b4b54;
   max-width: 1060px;
   margin: 0 auto;
   white-space: nowrap;
-  position: relative;
   min-height: 100%;
   background-color: #FFF;
   -webkit-box-shadow: 0px 0px 35px 0 rgba(37,37,37,1),
@@ -850,13 +851,48 @@ label.textarea {
 }
 
 
+#call_mobile {
+  width: 300px;
+  background-color: #143a83;
+  left:0;
+  height: 40px;
+  border-radius:10px;
+}
+
+#call_mobile {
+  position: relative;
+  top: 35;
+  margin: 0 auto;
+}
+#call_mobile .phone {
+  width: 20px;
+  height: 18px;
+  position: relative;
+  top: 12px;
+  margin-right: 10px;
+}
+/*#call_mobile .call {
+  font-size: 1em;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 400;
+  padding-top: 3px;
+  margin-bottom: 0;
+  text-align: center;
+  display:none;
+}*/
+#call_mobile .number {
+  color: #FFF;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 0.875em;
+  font-weight: 400;
+  line-height: 1.2;
+  text-align: center;
+  margin-top: -10px ;
+}
 /**************************** TABLET ****************************/
 
 @media screen and (max-width: 810px) {
-  #main {
-    margin-right: 0;
-    padding-right: 0;
-  }
+
 /*
 #top #logo {
   display: inline-block;
@@ -970,7 +1006,6 @@ text-decoration: none;
      -webkit-column-count: 2;
         -moz-column-count: 2;
              column-count: 2;
-    padding: 10px 0;
   }
 }
 
@@ -1017,7 +1052,6 @@ text-decoration: none;
  a#pull, a#pull_active {  
     display: none;  
 }
-
 
 
 
@@ -1170,10 +1204,8 @@ background-repeat: no-repeat;
   width: 20px;
   height: 18px;
   position: relative;
-  top: 2;
+  top: 12px;
   margin-right: 10px;
-  margin-top: 7px;
-
 }
 /*#call_mobile .call {
   font-size: 1em;

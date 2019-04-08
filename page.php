@@ -31,7 +31,7 @@ get_header(); ?>
 		<p>154 Route 206 S<br/>
 			Chester, NJ 07930<br/>
 			<br />
-			Call for a consultation:<br />
+			Call for a free consultation:<br />
 			<a href="tel:+19088790091" id="callContactSidebar"><span class="bold">(908) 879-0091</span></a></p>
 		</div>
 	</div>
@@ -40,7 +40,7 @@ get_header(); ?>
 			<p>154 Route 206 S<br/>
 				Chester, NJ 07930<br/>
 				<br />
-				Call for a consultation:<br />
+				Call for a free consultation:<br />
 				<a href="tel:+19088790091" id="callContactMobile"><span class="bold">(908) 879-0091</span></a></p>
 			</div>
 	

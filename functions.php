@@ -15,6 +15,19 @@ function my_widgets_init() {
 		'after_title' => '</h3>',
 	) );
 }
+function google_widget_init() {
+
+    register_sidebar( array(
+        'name'          => 'Google widgets',
+        'id'            => 'google_widget',
+        'before_widget' => '<div class="google-widget">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h3 class="google-widget-title">',
+        'after_title'   => '</h3>',
+    ) );
+
+}
+add_action( 'widgets_init', 'google_widget_init' );
 add_action( 'widgets_init', 'my_widgets_init' );
 add_filter('tiny_mce_before_init', create_function( '$a',
 '$a["extended_valid_elements"] = "iframe[id|class|title|style|align|frameborder|height|longdesc|marginheight|marginwidth|name|scrolling|src|width]"; return $a;') );
