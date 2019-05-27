@@ -34,6 +34,9 @@ Template Name: Home
 	      <p class="number"><img class="phone" src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/CIP/imgs/phone.png">Call for a <strong>free</strong> consultation: <br />(908) 879-0091</p>
 	    </div>
 	  </a>
+	  <!-- Calendly inline widget begin -->
+<div class="calendly-inline-widget" data-url="https://calendly.com/jgerminario/15min?hide_event_type_details=1" style="min-width:320px;height:580px;"></div>
+<!-- Calendly inline widget end -->
 	  		<?php // echo do_shortcode( '[brb_collection id="2567"]' ); ?>
 
 <div id="sidebar_mobile">
