@@ -17,6 +17,7 @@
 
 </script>
 <script async src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script>
 <script async>
 $('#pull').on('click', function() {
   ga('send', 'event', 'nav', 'open');
