@@ -18,6 +18,7 @@
 </script>
 <script async src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script>
+<script type="text/javascript">!function(e){var c=document.createElement("script");c.src=e,document.body.appendChild(c)}("http://www.newjerseypatentlaw.com?cf_action=brb_embed&brb_collection_id=2567&brb_callback=brb_"+(new Date).getTime());</script>
 <script async>
 $('#pull').on('click', function() {
   ga('send', 'event', 'nav', 'open');
