@@ -17,8 +17,6 @@ Template Name: Home
 		        <h2>Securing innovation for small business</h2><p><a href="<?php echo esc_url( home_url( '/' ) ); ?>clients">Meet our clients »</a></p>
 		      </div>
 		    </div>
-		   
-		 
 		  </div>
 		</div>
 	
@@ -36,7 +34,7 @@ Template Name: Home
 	  </a>
 	  <div id="brb_collection_2567" style="margin-top:35px;"> </div>
 	  <!-- Calendly inline widget begin -->
-<div class="calendly-inline-widget" data-url="https://calendly.com/jgerminario/15min?hide_event_type_details=1" style="min-width:320px;height:580px;margin-top:50px;"></div>
+<!-- <div class="calendly-inline-widget" data-url="https://calendly.com/jgerminario/15min?hide_event_type_details=1" style="min-width:320px;height:580px;margin-top:50px;"></div> -->
 <!-- Calendly inline widget end -->
 	  		<?php // echo do_shortcode( '[brb_collection id="2567"]' ); ?>
 
